@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* this is the Css for body */
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-color: #293b40;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+/* Styling the main  */
+main{
+    min-width: 400px;
+    width: 40%;
+    height: auto;
+    padding: 1%;
+}
+
+/* Setting Css for header  */
+header{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* Styling the input button */
+input ,button{
+    border: none;
+    outline: none;
+    background: none;
+}
+
+/* Styling the form to take input */
+form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Setting properties for input-field */
+#input-field{
+    font-size: larger;
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    height: 20%;
+    border-radius: 2rem;
+    background-color: white;
+    text-align: center;
+}
+
+/* Setting properties to add button */
+#addbtn{
+    font-weight: bolder;
+    font-size: larger;
+    height: 30px;
+    color:wheat;
+    cursor: pointer;
+}
+#addbtn:hover{
+    background: #6fe500;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+}
+
+.task{
+    width: 100%;
+    margin: 10px;
+}
+
+.status{
+    padding: 2px;
+    margin: 5px;
+}
+
+span{
+    margin: 15px;
+}
+
+/* Setting properties to task-list */
+#task-list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 1s;
+}
+
+/* Styling the display field */
+#display-field{
+    width: 70%;
+    font-size: medium;
+    margin-left: 8px;
+    border-radius: 2rem;
+    background-color:darkgray;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+
+.task button{
+    height: 30px;
+}
+
+.button{
+    width:11%;
+    margin-left: 5px;
+    font-weight: bolder;
+    font-size: 1rem;
+    color:pink;
+    cursor: pointer;
+}
+
+.button:hover{
+    background:#12c6f5;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+}
+
+/* Setting responsivness for the website */
+@media screen and (max-width:600px) {
+
+    main{
+        width: 100%;
+    }
+    .button{
+        width: auto;
+        margin-left: px;
+        font-size: 15px;
+    }
+}

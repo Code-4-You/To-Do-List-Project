@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- website title  -->
+    <title>To Do List</title>
+
+     <!-- favicon link -->
+    <link rel="icon" type="image" href="favicon.png">
+
+    <!-- style css link  -->
+    <link rel="stylesheet" href="todo.css">
+</head>
+
+<!-- body begains here  -->
+<body>
+
+    <!-- this is the main div of the website  -->
+    <main>
+
+         <!-- this is the header part  -->
+            <header>
+               <div> <h1>To-Do List</h1></div>
+
+                <!-- this is the form to take input todo list and submit -->
+               <form id="form">
+                    <input type="text" id="input-field" autocomplete="off" placeholder="Type your tasks...">
+                    <input type="submit" value="ADD" id="addbtn">
+                </form>
+            
+            </header>
+
+            <!-- here you can see todo tasks list -->
+            <section id="task-list">
+                <h2>Task</h2>
+                <div class="status"><span id="total">Total task:0</span><span id="completed">Completed:0</span><span id="pending">Pending:0</span></div>
+                
+            </section>
+    </main> 
+    
+    <!-- this is the javascript file link -->
+    <script src="todo.js"></script>
+</body>
+</html>
